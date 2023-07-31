@@ -1,0 +1,51 @@
+/* savejobs.css */
+
+/* Styling for the container holding the saved job items */
+.savejobs-container {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.savejobs-container h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+.savejobs-container {
+    margin-bottom: 8px;
+  }
+h1{
+  text-align: center;
+}
+/* Styling for the saved job title */
+.savejobs-title {
+  margin-top: 0;
+  color: #007bff;
+}
+
+/* Styling for the saved job description */
+.savejobs-description {
+  margin-bottom: 0;
+}
+
+/* Styling for the "Save Job" and "Remove from Saved" buttons */
+.savejobs-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  align-items: center;
+}
+
+/* Styling for the "Remove from Saved" button */
+.savejobs-button.remove-job-btn {
+  background-color: #dc3545;
+}
+
+/* Additional styles for the SaveJobs component can be added here */
